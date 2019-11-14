@@ -1,0 +1,43 @@
+{
+  "name": "@lianmed/components",
+  "version": "1.0.3",
+  "description": "> TODO: description",
+  "author": "lxf <lixiaofan.dev@gmail.com>",
+  "homepage": "https://github.com/kisixing/LUNA_FontEnd#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "@babel/runtime": "^7.4.4",
+    "antd": "^3.14.1",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "@lianmed/request": "^1.0.0"
+  },
+  "dependencies": {
+    "braft-editor": "^2.3.8",
+    "tinycolor2": "^1.4.1",
+    "react-color": "^2.17.3",
+    "bezier-easing": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kisixing/LUNA_FontEnd.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build:watch": "tsc --declaration -w",
+    "build": "tsc --declaration",
+    "deploy": "sh deploy.sh",
+    "link": "npm link"
+  },
+  "bugs": {
+    "url": "https://github.com/kisixing/LUNA_FontEnd/issues"
+  }
+}
